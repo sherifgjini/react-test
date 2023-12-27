@@ -1,10 +1,14 @@
 import "./App.css";
-import { Counter } from "./components/counter/Counter";
+import { MuiMode } from "./components/mui/MuiMode";
+import { AppProviders } from "./providers/AppProviders";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <AppProviders>
+        {/* <Counter /> */}
+        <MuiMode />
+      </AppProviders>
     </div>
   );
 }
