@@ -1,4 +1,5 @@
 export const Application = () => {
+  console.log(1);
   return (
     <>
       <h1>Job application form</h1>
